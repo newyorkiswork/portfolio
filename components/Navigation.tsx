@@ -21,7 +21,7 @@ export default function Navigation() {
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
           <Link href="/" className="text-xl font-bold text-gray-900">
-            Robert Petillo
+            Portfolio
           </Link>
 
           {/* Desktop Navigation */}
