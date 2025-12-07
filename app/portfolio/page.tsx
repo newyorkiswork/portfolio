@@ -60,13 +60,13 @@ export default function Portfolio() {
               </div>
               <div className="lg:col-span-8">
                 <div className="border-l-4 border-black pl-8 space-y-6">
-                  <p className="text-2xl md:text-3xl font-light leading-relaxed">
+                  <p className="text-2xl md:text-3xl font-light leading-relaxed text-black">
                     Sharing <span className="font-bold">New York to the world</span>, with people that have little knowledge to no idea what NY means and have to offer.
                   </p>
-                  <p className="text-xl leading-relaxed text-gray-700">
+                  <p className="text-xl leading-relaxed text-black">
                     We provide insight on what is NY people—the people that inhabit this universe—and what to look forward to when coming to NY.
                   </p>
-                  <p className="text-xl leading-relaxed text-gray-700">
+                  <p className="text-xl leading-relaxed text-black">
                     MY NY is a personal statement that speaks from the heart. We put MYNY in front of anything because it represents our connection to this city, its people, and its endless possibilities.
                   </p>
                 </div>
@@ -150,13 +150,13 @@ export default function Portfolio() {
               <div className="space-y-6">
                 <div className="border-l-4 border-black pl-6">
                   <h3 className="text-3xl font-black mb-4 uppercase">The Red Stroke</h3>
-                  <p className="text-xl leading-relaxed">
+                  <p className="text-xl leading-relaxed text-black">
                     The red stroke symbolizes the <span className="font-bold">Big Red Apple</span>, also known as the <span className="font-bold">heart of NEW YORK</span>.
                   </p>
                 </div>
                 <div className="border-l-4 border-black pl-6">
                   <h3 className="text-3xl font-black mb-4 uppercase">The Home Plate</h3>
-                  <p className="text-xl leading-relaxed">
+                  <p className="text-xl leading-relaxed text-black">
                     When the MYNY home plate is used, it symbolizes <span className="font-bold">New York as home</span>—everything is home base.
                   </p>
                 </div>
