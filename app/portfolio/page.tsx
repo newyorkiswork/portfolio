@@ -94,13 +94,13 @@ export default function Portfolio() {
               </div>
             </div>
 
-            {/* Right: Business Photo */}
-            <div className="bg-gray-100 aspect-square flex items-center justify-center">
-              <p className="text-gray-400 text-center px-4">
-                Business Photo<br/>
-                <span className="text-sm">Add: my-ny-business.jpg to /public folder</span>
-              </p>
-              {/* <img src="/my-ny-business.jpg" alt="MY NY Brands Business" className="w-full h-full object-cover" /> */}
+            {/* Right: MYNY Logo */}
+            <div className="bg-white aspect-square flex items-center justify-center p-8">
+              <img 
+                src="/my-ny-brands-logo.png" 
+                alt="MY NY Brands Logo - Home Plate with Red Stroke" 
+                className="w-full h-full object-contain"
+              />
             </div>
           </div>
 
