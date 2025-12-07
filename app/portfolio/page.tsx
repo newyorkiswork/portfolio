@@ -95,7 +95,7 @@ export default function Portfolio() {
             </div>
 
             {/* Right: MYNY Logo */}
-            <div className="bg-white aspect-square flex items-center justify-center p-8">
+            <div className="bg-gray-100 aspect-square flex items-center justify-center p-8">
               <img 
                 src="/my-ny-brands-logo.png" 
                 alt="MY NY Brands Logo - Home Plate with Red Stroke" 
