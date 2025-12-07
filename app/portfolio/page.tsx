@@ -74,77 +74,8 @@ export default function Portfolio() {
             </div>
           </div>
 
-          {/* Values Section */}
-          <div className="mb-16 bg-black text-white py-16 px-8">
-            <div className="grid lg:grid-cols-12 gap-8">
-              <div className="lg:col-span-4">
-                <div className="text-[8rem] font-black leading-none text-gray-800">02</div>
-                <p className="text-sm font-mono uppercase tracking-wider mt-4 text-gray-400">Our Values</p>
-              </div>
-              <div className="lg:col-span-8">
-                <div className="space-y-8">
-                  {/* Supporting Local */}
-                  <div className="border-l-4 border-white pl-6">
-                    <h3 className="text-3xl font-black mb-3 uppercase">Supporting Local</h3>
-                    <p className="text-lg leading-relaxed text-gray-300">
-                      To always support all local and all of New York—start-ups, small businesses, artists, farmers markets, and other local businesses that make New York great.
-                    </p>
-                  </div>
-
-                  {/* Entrepreneurship */}
-                  <div className="border-l-4 border-white pl-6">
-                    <h3 className="text-3xl font-black mb-3 uppercase">Entrepreneurship</h3>
-                    <p className="text-lg leading-relaxed text-gray-300">
-                      We believe it's not only a gift to create jobs but also to provide for others' needs with services.
-                    </p>
-                  </div>
-
-                  {/* Vision */}
-                  <div className="border-l-4 border-white pl-6">
-                    <h3 className="text-3xl font-black mb-3 uppercase">Vision</h3>
-                    <p className="text-lg leading-relaxed text-gray-300">
-                      Production of sustainable and creative MYNY goods. Making MY New York creative, through collaboration with education, sports, tourism, local New York teams and foundations. New York is a melting pot of culture; we all have a story to tell and memories to share. MY New York branding opportunities will take MYNY to new levels.
-                    </p>
-                  </div>
-
-                  {/* Innovation */}
-                  <div className="border-l-4 border-white pl-6">
-                    <h3 className="text-3xl font-black mb-3 uppercase">Innovation</h3>
-                    <p className="text-lg leading-relaxed text-gray-300">
-                      The world has become a fast-paced system and everyone is waiting and seeking what is next. MYNY wants to partner with creative minds in different industries to bring access to every community to develop opportunities for communities in and surrounding the New York area (i.e., the world).
-                    </p>
-                  </div>
-
-                  {/* Philanthropy */}
-                  <div className="border-l-4 border-white pl-6">
-                    <h3 className="text-3xl font-black mb-3 uppercase">Philanthropy</h3>
-                    <p className="text-lg leading-relaxed text-gray-300">
-                      We at MYNY believe in giving back (MYNY received tremendous help from many people), and we plan to assist through foundations and causes that help underprivileged communities advance.
-                    </p>
-                  </div>
-
-                  {/* Diversity */}
-                  <div className="border-l-4 border-white pl-6">
-                    <h3 className="text-3xl font-black mb-3 uppercase">Diversity</h3>
-                    <p className="text-lg leading-relaxed text-gray-300">
-                      MYNY thrives as the many faces of New York. New York is very diverse. Supporting each community that makes up NEW YORK makes it imperative that no story gets left out.
-                    </p>
-                  </div>
-
-                  {/* Sustainable */}
-                  <div className="border-l-4 border-white pl-6">
-                    <h3 className="text-3xl font-black mb-3 uppercase">Sustainable</h3>
-                    <p className="text-lg leading-relaxed text-gray-300">
-                      We believe in being environmentally friendly through means of production and recycling material. And invest time in seeking desirable ways the city of New York can serve as an example to other cities by collaborative efforts.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
           {/* Symbolism Section */}
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
+          <div className="mb-16 grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <div className="text-sm font-mono uppercase tracking-widest mb-4">Symbolism</div>
               <div className="space-y-6">
@@ -171,6 +102,137 @@ export default function Portfolio() {
               </p>
               {/* <img src="/my-ny-business.jpg" alt="MY NY Brands Business" className="w-full h-full object-cover" /> */}
             </div>
+          </div>
+
+          {/* Values Section - Moved to white background */}
+          <div className="mb-16">
+            <div className="grid lg:grid-cols-12 gap-8">
+              <div className="lg:col-span-4">
+                <div className="sticky top-32">
+                  <div className="text-[8rem] font-black leading-none text-gray-100">02</div>
+                  <p className="text-sm font-mono uppercase tracking-wider mt-4">Our Values</p>
+                </div>
+              </div>
+              <div className="lg:col-span-8">
+                <div className="space-y-8">
+                  {/* Supporting Local */}
+                  <div className="border-l-4 border-black pl-6">
+                    <h3 className="text-3xl font-black mb-3 uppercase">Supporting Local</h3>
+                    <p className="text-lg leading-relaxed text-black">
+                      To always support all local and all of New York—start-ups, small businesses, artists, farmers markets, and other local businesses that make New York great.
+                    </p>
+                  </div>
+
+                  {/* Entrepreneurship */}
+                  <div className="border-l-4 border-black pl-6">
+                    <h3 className="text-3xl font-black mb-3 uppercase">Entrepreneurship</h3>
+                    <p className="text-lg leading-relaxed text-black">
+                      We believe it's not only a gift to create jobs but also to provide for others' needs with services.
+                    </p>
+                  </div>
+
+                  {/* Vision */}
+                  <div className="border-l-4 border-black pl-6">
+                    <h3 className="text-3xl font-black mb-3 uppercase">Vision</h3>
+                    <p className="text-lg leading-relaxed text-black">
+                      Production of sustainable and creative MYNY goods. Making MY New York creative, through collaboration with education, sports, tourism, local New York teams and foundations. New York is a melting pot of culture; we all have a story to tell and memories to share. MY New York branding opportunities will take MYNY to new levels.
+                    </p>
+                  </div>
+
+                  {/* Innovation */}
+                  <div className="border-l-4 border-black pl-6">
+                    <h3 className="text-3xl font-black mb-3 uppercase">Innovation</h3>
+                    <p className="text-lg leading-relaxed text-black">
+                      The world has become a fast-paced system and everyone is waiting and seeking what is next. MYNY wants to partner with creative minds in different industries to bring access to every community to develop opportunities for communities in and surrounding the New York area (i.e., the world).
+                    </p>
+                  </div>
+
+                  {/* Philanthropy */}
+                  <div className="border-l-4 border-black pl-6">
+                    <h3 className="text-3xl font-black mb-3 uppercase">Philanthropy</h3>
+                    <p className="text-lg leading-relaxed text-black">
+                      We at MYNY believe in giving back (MYNY received tremendous help from many people), and we plan to assist through foundations and causes that help underprivileged communities advance.
+                    </p>
+                  </div>
+
+                  {/* Diversity */}
+                  <div className="border-l-4 border-black pl-6">
+                    <h3 className="text-3xl font-black mb-3 uppercase">Diversity</h3>
+                    <p className="text-lg leading-relaxed text-black">
+                      MYNY thrives as the many faces of New York. New York is very diverse. Supporting each community that makes up NEW YORK makes it imperative that no story gets left out.
+                    </p>
+                  </div>
+
+                  {/* Sustainable */}
+                  <div className="border-l-4 border-black pl-6">
+                    <h3 className="text-3xl font-black mb-3 uppercase">Sustainable</h3>
+                    <p className="text-lg leading-relaxed text-black">
+                      We believe in being environmentally friendly through means of production and recycling material. And invest time in seeking desirable ways the city of New York can serve as an example to other cities by collaborative efforts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* MY NY Brands Clothing Gallery */}
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-black text-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="mb-12">
+            <div className="text-sm font-mono uppercase tracking-widest mb-4 text-gray-400">MY NY Collection</div>
+            <h2 className="text-5xl md:text-6xl font-black mb-4 uppercase">Our Clothing</h2>
+            <p className="text-xl text-gray-300">Showcasing MY NY style and NYC energy</p>
+          </div>
+
+          {/* Clothing Gallery Grid */}
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            {/* Placeholder for clothing images */}
+            <div className="bg-gray-800 aspect-[3/4] flex items-center justify-center">
+              <p className="text-gray-400 text-center px-4 text-sm">
+                Clothing Image 1<br/>
+                <span className="text-xs">Add: myny-clothing-1.jpg to /public folder</span>
+              </p>
+            </div>
+            <div className="bg-gray-800 aspect-[3/4] flex items-center justify-center">
+              <p className="text-gray-400 text-center px-4 text-sm">
+                Clothing Image 2<br/>
+                <span className="text-xs">Add: myny-clothing-2.jpg to /public folder</span>
+              </p>
+            </div>
+            <div className="bg-gray-800 aspect-[3/4] flex items-center justify-center">
+              <p className="text-gray-400 text-center px-4 text-sm">
+                Clothing Image 3<br/>
+                <span className="text-xs">Add: myny-clothing-3.jpg to /public folder</span>
+              </p>
+            </div>
+            <div className="bg-gray-800 aspect-[3/4] flex items-center justify-center">
+              <p className="text-gray-400 text-center px-4 text-sm">
+                Clothing Image 4<br/>
+                <span className="text-xs">Add: myny-clothing-4.jpg to /public folder</span>
+              </p>
+            </div>
+            <div className="bg-gray-800 aspect-[3/4] flex items-center justify-center">
+              <p className="text-gray-400 text-center px-4 text-sm">
+                Clothing Image 5<br/>
+                <span className="text-xs">Add: myny-clothing-5.jpg to /public folder</span>
+              </p>
+            </div>
+            <div className="bg-gray-800 aspect-[3/4] flex items-center justify-center">
+              <p className="text-gray-400 text-center px-4 text-sm">
+                Clothing Image 6<br/>
+                <span className="text-xs">Add: myny-clothing-6.jpg to /public folder</span>
+              </p>
+            </div>
+          </div>
+
+          {/* Instructions */}
+          <div className="mt-12 p-6 bg-gray-900 border border-gray-700">
+            <p className="text-gray-300 text-center">
+              <strong className="text-white">Ready for your clothing images!</strong><br/>
+              Add your MYNY clothing photos to the <code className="bg-gray-800 px-2 py-1 rounded text-sm">/public</code> folder with names like <code className="bg-gray-800 px-2 py-1 rounded text-sm">myny-clothing-1.jpg</code>, <code className="bg-gray-800 px-2 py-1 rounded text-sm">myny-clothing-2.jpg</code>, etc.
+            </p>
           </div>
         </div>
       </section>
